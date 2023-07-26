@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/natureAkash.jpg'
 import {FaAward} from 'react-icons/fa'
 import {ImUsers} from 'react-icons/im'
 import {AiOutlineFolderOpen} from 'react-icons/ai'
@@ -21,15 +21,21 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>2+ Years of Experience</small>
+              <h5>SDE Work Experience</h5>
+              <small>2+ Years</small>
             </article>
 
             <article className='about__card'>
-              <ImUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200 Worldwide</small>
+              <FaAward className='about__icon'/>
+              <h5>Product Work Experience</h5>
+              <small>1+ Years</small>
             </article>
+
+            <a className='about__card' href='#contact'>
+              <ImUsers className='about__icon'/>
+              <h5>My Book Summaries</h5>
+              <small>200 Worldwide</small>
+            </a>
 
             <article className='about__card'>
               <AiOutlineFolderOpen className='about__icon'/>
@@ -37,12 +43,23 @@ const About = () => {
               <small>3+ completed projects</small>
             </article>
 
+            <article className='about__card'>
+              <AiOutlineFolderOpen className='about__icon'/>
+              <h5>Hobbies</h5>
+              <small>3+ completed projects</small>
+            </article>
+
+            <article className='about__card'>
+              <AiOutlineFolderOpen className='about__icon'/>
+              <h5>Content Creation</h5>
+              <small>I talk about Distributed System Design and Healthcare</small>
+            </article>
+
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Ducimus itaque assumenda dolore optio unde veniam ipsa voluptatem perspiciatis? 
-          Ipsam perspiciatis quis quisquam alias. Enim quisquam ab magnam voluptate cum iure!</p>
-          <a href='#contact' className='btn btn-primary'>Lets Talk</a>
         </div>
+        <div className='bottom__text'>
+            <p> A technology enthusiast with a Master’s in Computer Science from New York University. Previously, a seasoned Software Engineering workhorse with around 2 years of professional experience in big public company (Amazon and Capgemini), a Series D startup (Forward Health), and a seed-funded startup (Acadza). Skilled in Back-end technologies using Go, Python (Django), and Javascript(Node.js), and Frontend technologies like React.js.</p>
+          </div>
       </div>
     </section>
   )
