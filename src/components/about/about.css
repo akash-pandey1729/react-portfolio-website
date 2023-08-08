@@ -55,6 +55,7 @@
     border-color: var(--color-primary-variant);
 }
 .about__icon {
+    /* display:flex; */
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;

@@ -15,11 +15,23 @@
     border-color: var(--color-primary-variant);
     background: transparent;
 }
+
 .portfolio__item-image {
+    object-fit: contain;
     border-radius: 1.5rem;
     overflow: hidden;
 }
-
+.technology__icons {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--color-primary);
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.icon {
+    margin-top:6px;
+    width: 70px ;
+}
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }

@@ -1,6 +1,6 @@
 .container.testimonials__container {
     width: 40%;
-    padding: 4rem;
+    display: flex;
 }
 
 .client_avatar{
@@ -24,8 +24,16 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
-    width: 80%;
     margin: 0.8rem auto 0;
+}
+
+.linkedin{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+}
+.reviewer_name{
+    color: var(--color-primary);
+    font-size: 1.3rem;
 }
 
 /* ================= MEDIA QUERIES ==================== */
