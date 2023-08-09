@@ -1,7 +1,7 @@
 import React from "react";
 import "./modal.css";
 
-function Modal({ setOpenModal, projectName, projectDetails }) {
+function Modal({ setOpenModal, companyName, companyUrl, projectName, projectDetails }) {
     // console.log(">>>> here", projectName, projectDetails);
   return (
     <div className="modalBackground">
@@ -16,7 +16,8 @@ function Modal({ setOpenModal, projectName, projectDetails }) {
           </button>
         </div>
         <div className="title">
-          <h1>Projects</h1>
+          <a href={companyUrl} rel="noopener noreferrer" target="blank">{companyName}</a>
+          <h2>Projects</h2>
         </div>
         <div className="body">
             <b>{"Project Name: "+ projectName}</b>

@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from '../components/nav/Nav'
 
 const HobbyPage = () => {
   return (
-    <div>HobbyPage</div>
+    <div>
+      <Nav/>
+    </div>
   )
 }
 

@@ -14,14 +14,14 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>asp9085@nyu.edu</h5>
-            <a href='mailto:asp9085@nyu.edu'>Send an Email</a>
+            <a href='mailto:asp9085@nyu.edu' target="_blank" rel="noopener noreferrer" >Send an Email</a>
           </article>
 
           <article className='contact__option'>
             <FaWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+19294986395</h5>
-            <a href='https:://api.whatsapp.com/send?phone=+19294986395'>Send Message</a>
+            <a href='https://api.whatsapp.com/send?phone=9294986395' target="_blank" rel="noopener noreferrer" >Send Message</a>
           </article>
         </div>
         <form action=''>

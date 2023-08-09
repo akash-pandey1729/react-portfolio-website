@@ -22,7 +22,7 @@ const Footer = () => {
         <a href='https://www.instagram.com/akash_p1729/' rel="noreferrer" target='_blank'><AiOutlineInstagram/></a>
     </div>
     <div className='footer__copyright'>
-      <small>Copyright 2023 &copy; Akash Sampurnanand Pandey. All rights reserved</small>
+      <small>Copyright 2023 &copy; Designed and Developed by Akash Sampurnanand Pandey. All rights reserved</small>
     </div>
     </footer>
   )

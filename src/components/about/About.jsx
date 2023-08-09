@@ -4,7 +4,7 @@ import ME from '../../assets/natureAkash.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaPlaneDeparture} from 'react-icons/fa'
 import {BiSolidBookAlt} from 'react-icons/bi'
-import {GoFileMedia} from 'react-icons/go'
+import {AiFillLinkedin} from 'react-icons/ai'
 import {GrProductHunt} from 'react-icons/gr'
 import {AiOutlineFolderOpen} from 'react-icons/ai'
 import { Link } from "react-router-dom";
@@ -41,10 +41,10 @@ const About = () => {
               <small>3+ completed projects</small>
             </a>
             
-            <Link to= '/blog' target="_blank" rel="noopener noreferrer" className='about__card'>
-              <GoFileMedia className='about__icon'/>
+            <Link to= 'https://www.linkedin.com/in/akash-sampurnanand-pandey-129609178/' target="_blank" rel="noopener noreferrer" className='about__card'>
+              <AiFillLinkedin className='about__icon'/>
               <h5>Content Creation</h5>
-              <small>I talk about Distributed System Design and Healthcare</small>
+              <small>I write about Distributed System Design and Healthcare on LinkedIn</small>
             </Link>
 
             <Link to='/hobby' target="_blank" rel="noopener noreferrer" className='about__card'>
