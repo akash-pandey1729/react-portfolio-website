@@ -16,15 +16,15 @@ const router = createBrowserRouter([
       element: <App />,
     },
     {
-        path: "blog",
+        path: "/blog",
         element: <BlogPage/>,
     },
     {
-        path: "hobby",
+        path: "/hobby",
         element: <HobbyPage/>,
     },
     {
-        path: "book_summary",
+        path: "/book_summary",
         element: <BookSummaryPage/>,
     },
 ]);

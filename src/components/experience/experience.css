@@ -73,11 +73,13 @@
 /* ================= MEDIA QUERIES ==================== */
 
 @media screen and (max-width: 1024px) {
-    .service__container {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+        display: block;
     }
     .service {
+        grid-template-columns: 1fr 1fr;
         height: auto;
     }
 }
@@ -85,12 +87,30 @@
 /* ================= MEDIA QUERIES (MOBILE PHONES)==================== */
 
 @media screen and (max-width: 600px) {
-    .service__container {
-        grid-template-columns: 1fr 1fr;
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 1.5rem;
+        
 
     }
     .service {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        gap: 1.5rem;
+        
+
+    }
+    .service {
+        grid-template-columns: 1fr;
         height: auto;
     }
 }
