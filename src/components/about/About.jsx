@@ -55,7 +55,7 @@ const About = () => {
             <a data-tooltip-id="my-tooltip-about" data-tooltip-content="click to Navigate" href='#experience' className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Software Development Experience</h5>
-              <small>2+ Years</small>
+              <small>3+ Years</small>
             </a>
 
             <a data-tooltip-id="my-tooltip-about" data-tooltip-content="click to Navigate"  href='#experience' className='about__card'>
@@ -73,7 +73,7 @@ const About = () => {
             <Link data-tooltip-id="my-tooltip-about" data-tooltip-content="click to Navigate"  to= 'https://www.linkedin.com/in/akash-sampurnanand-pandey-129609178/' target="_blank" rel="noopener noreferrer" className='about__card'>
               <AiFillLinkedin className='about__icon'/>
               <h5>Content Creation</h5>
-              <small className='text_description'>I write about Distributed System Design and Healthcare on LinkedIn</small>
+              <small className='text_description'>LinkedIn Top Voice Badge Holder</small>
             </Link>
 
             <a href='##' className='about__card'>
